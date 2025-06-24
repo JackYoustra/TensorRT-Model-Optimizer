@@ -633,7 +633,7 @@ if __name__ == "__main__":
         help=(
             "Specify the percentage of available GPU memory to use for loading the model when "
             "device_map is set to sequential. "
-            "By default, 80% of the available GPU memory is used."
+            "By default, 80%% of the available GPU memory is used."
         ),
         type=float,
         default=0.8,
